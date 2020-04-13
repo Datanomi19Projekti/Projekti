@@ -1,13 +1,47 @@
-K�YTT�J�PERSOONAT
+KÄYTTÄJÄPERSOONAT
 
 SENIORIT
 
+Nimi, ikä, asuinpaikka: Miia 72 v. Turku, palvelutalo
+Ammatti: Eläkkeellä keittäjän työstä
+Perhe: 2 lasta, joilla omat perheet ja kiireensä. Käyvät kylässä vuoro viikoin.
+Elämäntyyli (arvot, tyyli, tärkeät asiat): Haluaa pitää itsestään huolta henkisesti ja fyysisesti, kilpailuviettinen
+Miksi/miten/milloin/missä käyttää palvelua: Pelaa pelejä yksin ja ryhmässä - vertailee tuloksia aikaisempiin omiin tuloksiinsa ja muiden ryhmäläisten tuloksiin.
+Tietokoneen käyttötaidot: Ei osaa käyttää tietokonetta mutta saa neuvoa tabletin käyttöön ryhmältä/henkilökunnalta kerran päivässä
+
+Nimi, ikä, asuinpaikka: Jarmo 68 v. Paattinen, kotitalossaan yksin
+Ammatti: Eläkkeellä maatilan töistä
+Perhe: 1 lapsi, joka asuu Helsingissä. Soittelevat kerran viikossa.
+Elämäntyyli (arvot, tyyli, tärkeät asiat): Haluaa pärjätä kotitalossaan mahdollisimman pitkään. Kotiapu käy kerran viikossa.
+Osaa käyttää hieman tietokonetta itsenäisesti, esim. verkkopankkia laskujen maksamiseen.
+Miksi/miten/milloin/missä käyttää palvelua: Pelaa pelejä yksin - vertailee tuloksia aikaisempiin omiin tuloksiinsa.
+Tietokoneen käyttötaidot: Osaa käyttää hieman tietokonetta itsenäisesti, esim. verkkopankkia laskujen maksamiseen. Saa neuvoa tabletin käyttöön kerran viikossa kotiavulta tai lapselta.
+
 MUISTISAIRAAT
+
+Nimi, ikä, asuinpaikka:
+Ammatti:
+Perhe:
+Elämäntyyli (arvot, tyyli, tärkeät asiat):
+Miksi/miten/milloin/missä käyttää palvelua:
+Tietokoneen käyttötaidot:
 
 VAMMAISET
 
-MUUT
-Kaikki, jotka pit�v�t aivojumppapeleist�, joissa yksinkertainen toteutus.
+Nimi, ikä, asuinpaikka:
+Ammatti:
+Perhe:
+Elämäntyyli (arvot, tyyli, tärkeät asiat):
+Miksi/miten/milloin/missä käyttää palvelua:
+Tietokoneen käyttötaidot:
 
-K�YTT�TAPAUKSET
+MUUT
+Kaikki, jotka pitävät aivojumppapeleistä, joissa yksinkertainen toteutus.
+
+Nimi, ikä, asuinpaikka:
+Ammatti:
+Perhe:
+Elämäntyyli (arvot, tyyli, tärkeät asiat):
+Miksi/miten/milloin/missä käyttää palvelua:
+Tietokoneen käyttötaidot:
 
