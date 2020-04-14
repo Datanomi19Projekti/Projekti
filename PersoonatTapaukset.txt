@@ -1,6 +1,8 @@
-KÄYTTÄJÄPERSOONAT
+﻿KÄYTTÄJÄPERSOONAT
+
 
 SENIORIT
+
 
 Nimi, ikä, asuinpaikka: Miia 72 v. Turku, palvelutalo
 Ammatti: Eläkkeellä keittäjän työstä
@@ -8,6 +10,7 @@ Perhe: 2 lasta, joilla omat perheet ja kiireensä. Käyvät kylässä vuoro viik
 Elämäntyyli (arvot, tyyli, tärkeät asiat): Haluaa pitää itsestään huolta henkisesti ja fyysisesti, kilpailuviettinen
 Miksi/miten/milloin/missä käyttää palvelua: Pelaa pelejä yksin ja ryhmässä - vertailee tuloksia aikaisempiin omiin tuloksiinsa ja muiden ryhmäläisten tuloksiin.
 Tietokoneen käyttötaidot: Ei osaa käyttää tietokonetta, saa pelattua peliä, jos se valmiiksi auki.
+
 
 Nimi, ikä, asuinpaikka: Jarmo 68 v. Paattinen, kotitalossaan yksin
 Ammatti: Eläkkeellä maatilan töistä
@@ -17,31 +20,44 @@ Osaa käyttää hieman tietokonetta itsenäisesti, esim. verkkopankkia laskujen 
 Miksi/miten/milloin/missä käyttää palvelua: Pelaa pelejä yksin - vertailee tuloksia aikaisempiin omiin tuloksiinsa.
 Tietokoneen käyttötaidot: Osaa käyttää hieman tietokonetta itsenäisesti, esim. verkkopankkia laskujen maksamiseen. Saa neuvoa tabletin käyttöön kerran viikossa kotiavulta tai lapselta.
 
+
 MUISTISAIRAAT
 
-Nimi, ikä, asuinpaikka:
-Ammatti:
-Perhe:
-Elämäntyyli (arvot, tyyli, tärkeät asiat):
-Miksi/miten/milloin/missä käyttää palvelua:
-Tietokoneen käyttötaidot:
+
+Nimi, ikä, asuinpaikka: Petteri, 80, Turku, palvelutalo
+Ammatti: Eläkkeellä, entinen hitsaaja
+Perhe: Yksin
+Elämäntyyli (arvot, tyyli, tärkeät asiat): Tarvitsee apua hoitajilta, ei muista minne viimeksi jätti tavaroita. Muistaa kuitenkin oman huoneen ja sen ympäristön. 
+Miksi/miten/milloin/missä käyttää palvelua: Yritetään hidastaa lähimuistin menetystä ja pitää  kevyttä aivojumppaa
+Tietokoneen käyttötaidot: Ei osaa käyttää tietokonetta/tablettia, unohtaa miten se toimii vaikka hoitaja on sen kerran näyttänyt
+
 
 VAMMAISET
 
-Nimi, ikä, asuinpaikka:
-Ammatti:
-Perhe:
-Elämäntyyli (arvot, tyyli, tärkeät asiat):
-Miksi/miten/milloin/missä käyttää palvelua:
-Tietokoneen käyttötaidot:
+
+Nimi, ikä, asuinpaikka: Roosa, 22, Turku
+Ammatti: Peruskoulun käynyt
+Perhe: Vanhemmat, hoitaja
+Elämäntyyli (arvot, tyyli, tärkeät asiat): Ei pysty puhumaan. Lukemisessa vaikeuksia. Pystyy kuitenkin ymmärtämään muita. Oppii hitaasti, opittavan asian pitää olla näkyvä. Pitää piirtämisestä
+Miksi/miten/milloin/missä käyttää palvelua: Ajanvietettä, oppimisen tukena
+Tietokoneen käyttötaidot: Osaa käyttää tablettia, tarvitsee apua teksteissä.
+
 
 MUUT
 Kaikki, jotka pitävät aivojumppapeleistä, joissa yksinkertainen toteutus.
 
-Nimi, ikä, asuinpaikka:
-Ammatti:
-Perhe:
-Elämäntyyli (arvot, tyyli, tärkeät asiat):
-Miksi/miten/milloin/missä käyttää palvelua:
-Tietokoneen käyttötaidot:
 
+Nimi, ikä, asuinpaikka: Mika, 47 v. Turku, omakotitalossa perheen kanssa
+Ammatti: Työkyvyttömyyseläkkeellä
+Perhe: vaimo ja 1 lapsi
+Elämäntyyli (arvot, tyyli, tärkeät asiat): Viettää eläkkeen takia päivät kotona ja haluaa oppia uusia taitoja ajankuluksi.
+Miksi/miten/milloin/missä käyttää palvelua: Pelaa yksin ja mittaa kehitystään vertaamalla aikaisempia tuloksia
+Tietokoneen käyttötaidot: Osaa käyttää tietokonetta laskujen maksuun verkkopankissa ja omistaa älypuhelimen jota osaa käyttää, mutta tarvitsee monimutkaisemmassa käytössä avustusta lapselta.
+
+
+Nimi, ikä, asuinpaikka: Aino, 11 v. Lieto, vanhempien kanssa kerrostalossa
+Ammatti: Alakoululainen
+Perhe: vanhemmat ja koira
+Elämäntyyli (arvot, tyyli, tärkeät asiat): Pitää opiskelusta, ja etsii jatkuvasti uutta opittavaa
+Miksi/miten/milloin/missä käyttää palvelua: Pelaa ajankuluksi ja kokee hyvänä aivojenvirkistäjänä
+Tietokoneen käyttötaidot: Osaa käyttää tablettia, koska sitä käytetään opiskelun ohella, mutta kysyy välillä apua opettajilta.
