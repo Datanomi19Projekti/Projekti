@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-05-06T17:27:13.294+03:00
-  initializedAtString: 2020-05-06T16:46:39.594+03:00
+  lastUpdatedAtString: 2020-05-06T18:17:28.920+03:00
+  initializedAtString: 2020-05-06T18:17:28.920+03:00
   currentGitRemote:
     name: origin
     url: https://github.com/Datanomi19Projekti/Projekti.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Oskari
-    tracking: origin/Oskari
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: Oskari
+    name: master
     remote:
       name: origin
       url: https://github.com/Datanomi19Projekti/Projekti.git
-    trackingBranch: Oskari
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/Datanomi19Projekti/Projekti.git
