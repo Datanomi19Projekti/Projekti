@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-06T18:55:15.454+03:00
-  initializedAtString: 2020-05-06T18:55:15.454+03:00
+  lastUpdatedAtString: 2020-05-06T20:23:30.226+03:00
+  initializedAtString: 2020-05-06T20:19:09.331+03:00
   entries:
   - path: UnityProjekti\Assets\Scenes\Menu.unity
     fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Menu.unity"
@@ -22,15 +22,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UnityProjekti\Library\assetDatabase3
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
-    projectPath: Library\assetDatabase3
+  - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+    projectPath: Assets\Scenes\Minipeli3.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UnityProjekti\Library\CurrentLayout.dwlt
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
-    projectPath: Library\CurrentLayout.dwlt
+  - path: UnityProjekti\Library\assetDatabase3
+    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
+    projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -70,39 +70,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UnityProjekti\Library\gfu\cache\gituser.yaml
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gituser.yaml"
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
     fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UnityProjekti\Library\LastSceneManagerSetup.txt
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\LastSceneManagerSetup.txt"
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UnityProjekti\Library\metadata\fd\fd688fc1726a66844b9e8c629f97ed49
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\metadata\\fd\\fd688fc1726a66844b9e8c629f97ed49"
-    projectPath: Library\metadata\fd\fd688fc1726a66844b9e8c629f97ed49
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UnityProjekti\ProjectSettings\EditorBuildSettings.asset
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\ProjectSettings\\EditorBuildSettings.asset"
-    projectPath: ProjectSettings\EditorBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
