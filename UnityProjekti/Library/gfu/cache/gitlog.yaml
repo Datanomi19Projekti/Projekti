@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-05-06T17:27:55.034+03:00
+  initializedAtString: 2020-05-06T16:49:09.718+03:00
+  log:
+  - commitID: 01d6e73e1843b548fa81e142ce4b55a7651e4087
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: "K\xE4ytt\xF6liittym\xE4n suunnittelu"
+    description: 
+    timeString: 2020-04-21T14:43:18.000+03:00
+    commitTimeString: 2020-04-21T14:43:18.000+03:00
+    changes:
+    - path: Kayttoliittyman_suunnittelu.docx
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\Kayttoliittyman_suunnittelu.docx"
+      projectPath: ..\Kayttoliittyman_suunnittelu.docx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 6da6d126430386ec881922242c4d96ee2e243534
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: "Muokattu ep\xE4selvi\xE4 kohtia ja muotoilua parannettu."
+    description: 
+    timeString: 2020-04-16T14:34:01.000+03:00
+    commitTimeString: 2020-04-16T14:34:01.000+03:00
+    changes:
+    - path: Projektisuunnitelma.docx
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\Projektisuunnitelma.docx"
+      projectPath: ..\Projektisuunnitelma.docx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: bbfde4998ab028971d8012487512228065fa9b1f
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: "Muokattu ep\xE4selvi\xE4 kohtia."
+    description: 
+    timeString: 2020-04-16T14:19:57.000+03:00
+    commitTimeString: 2020-04-16T14:19:57.000+03:00
+    changes:
+    - path: Projektisuunnitelma.docx
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\Projektisuunnitelma.docx"
+      projectPath: ..\Projektisuunnitelma.docx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: e2ccdbcf3bd2bdca708ee630cf6a4f1518b1c959
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: "Alustava projektisuunnitelma, voi viel\xE4 muuttua"
+    description: 
+    timeString: 2020-04-16T13:13:20.000+03:00
+    commitTimeString: 2020-04-16T13:13:20.000+03:00
+    changes:
+    - path: Projektisuunnitelma.docx
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\Projektisuunnitelma.docx"
+      projectPath: ..\Projektisuunnitelma.docx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 92018a8af2bc17988e0385262ab24b687f2fbd99
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: "Lis\xE4tty"
+    description: 
+    timeString: 2020-04-14T14:28:02.000+03:00
+    commitTimeString: 2020-04-14T14:28:02.000+03:00
+    changes:
+    - path: Vaatimusmaarittely_ja_Toiminnot.xlsx
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\Vaatimusmaarittely_ja_Toiminnot.xlsx"
+      projectPath: ..\Vaatimusmaarittely_ja_Toiminnot.xlsx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: f4bba8a1589aefbd1adc15b5e4f09a48feeaf42f
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: Aikataulu
+    description: 
+    timeString: 2020-04-14T14:11:02.000+03:00
+    commitTimeString: 2020-04-14T14:11:02.000+03:00
+    changes:
+    - path: Aikataulu.docx
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\Aikataulu.docx"
+      projectPath: ..\Aikataulu.docx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 72324ce8635bef2c8c353d65073f1cfa179ab90f
+    mergeA: 
+    mergeB: 
+    authorName: Datanomi19Projekti
+    authorEmail: 63594821+Datanomi19Projekti@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: 
+    timeString: 2020-04-14T13:01:08.000+03:00
+    commitTimeString: 2020-04-14T13:01:08.000+03:00
+    changes:
+    - path: "K\xE4ytt\xF6tapaukset2.xlsx"
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\K\xE4ytt\xF6tapaukset2.xlsx"
+      projectPath: "..\\K\xE4ytt\xF6tapaukset2.xlsx"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 89f2354713fd3d5a5c06cfadf26b1a00417839c0
+    mergeA: 
+    mergeB: 
+    authorName: Datanomi19Projekti
+    authorEmail: 63594821+Datanomi19Projekti@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: "Delete K\xE4ytt\xF6tapaukset.xlsx"
+    description: 
+    timeString: 2020-04-14T13:00:23.000+03:00
+    commitTimeString: 2020-04-14T13:00:23.000+03:00
+    changes:
+    - path: "K\xE4ytt\xF6tapaukset.xlsx"
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\K\xE4ytt\xF6tapaukset.xlsx"
+      projectPath: "..\\K\xE4ytt\xF6tapaukset.xlsx"
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: bb7997e3a5fecd57eecf446ed35c131c86c19853
+    mergeA: 
+    mergeB: 
+    authorName: Datanomi19Projekti
+    authorEmail: 63594821+Datanomi19Projekti@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: 
+    timeString: 2020-04-14T12:54:53.000+03:00
+    commitTimeString: 2020-04-14T12:54:53.000+03:00
+    changes:
+    - path: PersoonatTapaukset.txt
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\PersoonatTapaukset.txt"
+      projectPath: ..\PersoonatTapaukset.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a7ab813e29a25671cad353a165cf83f5e31cf3c8
+    mergeA: 
+    mergeB: 
+    authorName: HannaSaari
+    authorEmail: hanna.saari3@gmail.com
+    commitEmail: hanna.saari3@gmail.com
+    commitName: HannaSaari
+    summary: mh
+    description: 
+    timeString: 2020-04-13T22:20:36.000+03:00
+    commitTimeString: 2020-04-13T22:20:36.000+03:00
+    changes:
+    - path: "K\xE4ytt\xF6tapaukset.xlsx"
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\K\xE4ytt\xF6tapaukset.xlsx"
+      projectPath: "..\\K\xE4ytt\xF6tapaukset.xlsx"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 3bf0573a1d6361793dfe77292e1a36c655bb4f81
+    mergeA: 
+    mergeB: 
+    authorName: Datanomi19Projekti
+    authorEmail: 63594821+Datanomi19Projekti@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update PersoonatTapaukset.txt
+    description: 
+    timeString: 2020-04-13T21:32:42.000+03:00
+    commitTimeString: 2020-04-13T21:32:42.000+03:00
+    changes:
+    - path: PersoonatTapaukset.txt
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\PersoonatTapaukset.txt"
+      projectPath: ..\PersoonatTapaukset.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 47f69c441cb30bfb4e3ae421cc7ae11b4b1b33d5
+    mergeA: 
+    mergeB: 
+    authorName: Datanomi19Projekti
+    authorEmail: 63594821+Datanomi19Projekti@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update PersoonatTapaukset.txt
+    description: 
+    timeString: 2020-04-13T20:25:54.000+03:00
+    commitTimeString: 2020-04-13T20:25:54.000+03:00
+    changes:
+    - path: PersoonatTapaukset.txt
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\PersoonatTapaukset.txt"
+      projectPath: ..\PersoonatTapaukset.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 25e9034c796c28945d72fdc4338685860fb64f75
+    mergeA: 
+    mergeB: 
+    authorName: Datanomi19Projekti
+    authorEmail: testi123.projekti@gmail.com
+    commitEmail: testi123.projekti@gmail.com
+    commitName: Datanomi19Projekti
+    summary: eka
+    description: 
+    timeString: 2020-04-13T17:20:05.000+03:00
+    commitTimeString: 2020-04-13T17:20:05.000+03:00
+    changes:
+    - path: PersoonatTapaukset.txt
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\PersoonatTapaukset.txt"
+      projectPath: ..\PersoonatTapaukset.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
