@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minipeli2.unity
     guid: d0f16fd91fc538745a4aedeaa4f7a0a5
+  - enabled: 1
+    path: Assets/Scenes/Minipeli3.unity
+    guid: dee7d0396cf87d84cbe90b1abcd34076
   m_configObjects: {}
