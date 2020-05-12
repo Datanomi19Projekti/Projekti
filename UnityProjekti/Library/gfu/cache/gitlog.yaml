@@ -13,9 +13,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-05-12T15:40:02.422+03:00
+  lastUpdatedAtString: 2020-05-12T15:50:30.723+03:00
   initializedAtString: 2020-05-12T08:30:36.122+03:00
   log:
+  - commitID: 5adb20de8221abd90fd4ae8435b079f078ccb188
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: Palapeli
+    description: 
+    timeString: 2020-05-12T15:41:21.000+03:00
+    commitTimeString: 2020-05-12T15:41:21.000+03:00
+    changes:
+    - path: UnityProjekti\Library\StateCache\Hierarchy\63d59e-mainStage.json
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\Hierarchy\\63d59e-mainStage.json"
+      projectPath: Library\StateCache\Hierarchy\63d59e-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\branches.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitlocks.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitlog.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 85a350ec8d404d2c05f36c7cd6a9d94c1bc01923
     mergeA: 
     mergeB: 

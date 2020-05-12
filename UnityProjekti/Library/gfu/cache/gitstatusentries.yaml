@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-12T15:40:02.996+03:00
+  lastUpdatedAtString: 2020-05-12T15:50:19.229+03:00
   initializedAtString: 2020-05-12T08:30:36.737+03:00
   entries:
   - path: UnityProjekti\Assets\Palapeli\LiikutaPalaa.cs
@@ -97,12 +97,6 @@ MonoBehaviour:
   - path: UnityProjekti\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gittrackingstatus.yaml"
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
-    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -268,12 +262,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: UnityProjekti\Library\StateCache\Hierarchy\63d59e-mainStage.json
-    fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\Hierarchy\\63d59e-mainStage.json"
-    projectPath: Library\StateCache\Hierarchy\63d59e-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: UnityProjekti\Library\StateCache\SceneView\a8ac84-0cc5a30af37736045a.json
     fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\SceneView\\a8ac84-0cc5a30af37736045a.json"
     projectPath: Library\StateCache\SceneView\a8ac84-0cc5a30af37736045a.json
