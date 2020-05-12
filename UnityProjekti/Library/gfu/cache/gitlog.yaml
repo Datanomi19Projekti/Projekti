@@ -13,9 +13,129 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-05-12T15:31:20.198+03:00
+  lastUpdatedAtString: 2020-05-12T15:40:02.422+03:00
   initializedAtString: 2020-05-12T08:30:36.122+03:00
   log:
+  - commitID: 85a350ec8d404d2c05f36c7cd6a9d94c1bc01923
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: Palapeli
+    description: 
+    timeString: 2020-05-12T15:34:16.000+03:00
+    commitTimeString: 2020-05-12T15:34:16.000+03:00
+    changes:
+    - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+      projectPath: Assets\Scenes\Minipeli3.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\CurrentLayout.dwlt
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\InspectorExpandedItems.asset
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\InspectorExpandedItems.asset"
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\LastSceneManagerSetup.txt
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\LastSceneManagerSetup.txt"
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\StateCache\Hierarchy\63d59e-mainStage.json
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\Hierarchy\\63d59e-mainStage.json"
+      projectPath: Library\StateCache\Hierarchy\63d59e-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\StateCache\SceneView\a8ac84-mainStage.json
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\SceneView\\a8ac84-mainStage.json"
+      projectPath: Library\StateCache\SceneView\a8ac84-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\assetDatabase3
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\branches.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitlocks.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitlog.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gituser.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gituser.yaml"
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: f8a5513a04ef08031c0f89f8a5d50389b73e6225
     mergeA: 
     mergeB: 
