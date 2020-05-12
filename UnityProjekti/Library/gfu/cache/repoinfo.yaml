@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-05-06T20:19:04.281+03:00
-  initializedAtString: 2020-05-06T20:19:04.281+03:00
+  lastUpdatedAtString: 2020-05-12T14:39:20.127+03:00
+  initializedAtString: 2020-05-12T08:30:34.315+03:00
   currentGitRemote:
     name: origin
     url: https://github.com/Datanomi19Projekti/Projekti.git

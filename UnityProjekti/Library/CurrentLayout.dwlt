@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 508, y: 498}
+  m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 12
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,18 +64,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1433
+    x: 1471
     y: 0
-    width: 487
+    width: 449
     height: 947
-  m_MinSize: {x: 102, y: 124}
+  m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 272
+    width: 204
     height: 553
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 553
-    width: 1433
+    width: 1471
     height: 394
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
@@ -215,12 +215,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1433
+    width: 1471
     height: 947
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 142
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,12 +240,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1433
+    width: 1471
     height: 553
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 143
+  controlID: 56
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,9 +261,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 272
+    x: 204
     y: 0
-    width: 1161
+    width: 1267
     height: 553
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
@@ -294,9 +294,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1433
+    x: 1471
     y: 73
-    width: 485
+    width: 447
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
@@ -304,9 +304,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -505,10 +505,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2020-05-06T19:06:22.510+03:00
+      updatedTimeString: 2020-05-06T20:22:49.122+03:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2020-05-06T19:06:16.561+03:00
+      updatedTimeString: 2020-05-06T20:19:04.281+03:00
       cacheType: 1
     currentBranch:
       name: master
@@ -538,11 +538,11 @@ MonoBehaviour:
     - name: origin/Oskari
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
-    commitMessage: "pient\xE4 lis\xE4yst\xE4"
+    commitMessage: "pient\xE4 lis\xE4yst\xE4 Minipeli3 sceneen"
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
@@ -552,10 +552,32 @@ MonoBehaviour:
       folders:
         keys:
         - UnityProjekti
+        - UnityProjekti\Assets
+        - UnityProjekti\Assets\Palapeli
+        - UnityProjekti\Assets\Scenes
         - UnityProjekti\Library
         - UnityProjekti\Library\gfu
         - UnityProjekti\Library\gfu\cache
+        - UnityProjekti\Library\metadata
+        - UnityProjekti\Library\metadata\66
+        - UnityProjekti\Library\ScriptAssemblies
+        - UnityProjekti\Library\ShaderCache
+        - UnityProjekti\Library\ShaderCache\0
+        - UnityProjekti\Library\ShaderCache\6
+        - UnityProjekti\Library\ShaderCache\7
+        - UnityProjekti\Library\ShaderCache\9
+        - UnityProjekti\Library\ShaderCache\b
+        - UnityProjekti\Library\ShaderCache\c
+        - UnityProjekti\Library\ShaderCache\d
+        - UnityProjekti\Library\ShaderCache\e
+        - UnityProjekti\Library\ShaderCache\f
+        - UnityProjekti\Library\StateCache
+        - UnityProjekti\Library\StateCache\Hierarchy
+        - UnityProjekti\Library\StateCache\SceneView
+        - UnityProjekti\obj
+        - UnityProjekti\obj\Debug
         - UnityProjekti\Temp
+        - UnityProjekti\Temp\__Backupscenes
         values:
         - path: UnityProjekti
           label: UnityProjekti
@@ -563,6 +585,60 @@ MonoBehaviour:
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Assets
+          label: Assets
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Assets\Palapeli
+          label: Palapeli
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Assets\Scenes
+          label: Scenes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
@@ -598,7 +674,7 @@ MonoBehaviour:
           level: 2
           isFolder: 1
           isContainer: 0
-          isCollapsed: 0
+          isCollapsed: 1
           isHidden: 1
           isActive: 0
           treeIsCheckable: 1
@@ -629,6 +705,330 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: UnityProjekti\Library\metadata
+          label: metadata
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\metadata\66
+          label: 66
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ScriptAssemblies
+          label: ScriptAssemblies
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache
+          label: ShaderCache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\0
+          label: 0
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\6
+          label: 6
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\7
+          label: 7
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\9
+          label: 9
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\b
+          label: b
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\c
+          label: c
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\d
+          label: d
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\e
+          label: e
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\ShaderCache\f
+          label: f
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\StateCache
+          label: StateCache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\StateCache\Hierarchy
+          label: Hierarchy
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Library\StateCache\SceneView
+          label: SceneView
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\obj
+          label: obj
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\obj\Debug
+          label: Debug
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: UnityProjekti\Temp
           label: Temp
           level: 1
@@ -636,6 +1036,24 @@ MonoBehaviour:
           isContainer: 0
           isCollapsed: 1
           isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UnityProjekti\Temp\__Backupscenes
+          label: __Backupscenes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -693,6 +1111,114 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: UnityProjekti\Assets
+        label: Assets
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Assets\Palapeli
+        label: Palapeli
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Assets\Palapeli\LiikutaPalaa.cs
+        label: LiikutaPalaa.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Assets\Palapeli\LiikutaPalaa.cs
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Palapeli\\LiikutaPalaa.cs"
+          projectPath: Assets\Palapeli\LiikutaPalaa.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Assets\Palapeli\LiikutaPalaa.cs.meta
+        label: LiikutaPalaa.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Assets\Palapeli\LiikutaPalaa.cs.meta
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Palapeli\\LiikutaPalaa.cs.meta"
+          projectPath: Assets\Palapeli\LiikutaPalaa.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Assets\Scenes
+        label: Scenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+        label: Minipeli3.unity
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+          projectPath: Assets\Scenes\Minipeli3.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UnityProjekti\Library
         label: Library
         level: 1
@@ -711,6 +1237,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: UnityProjekti\Library\assetDatabase3
+        label: assetDatabase3
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\assetDatabase3
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UnityProjekti\Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\CurrentLayout.dwlt
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UnityProjekti\Library\EditorInstance.json
         label: EditorInstance.json
         level: 2
@@ -734,7 +1296,7 @@ MonoBehaviour:
         level: 2
         isFolder: 1
         isContainer: 0
-        isCollapsed: 0
+        isCollapsed: 1
         isHidden: 1
         isActive: 0
         treeIsCheckable: 1
@@ -873,6 +1435,798 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: UnityProjekti\Library\metadata
+        label: metadata
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\metadata\66
+        label: 66
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e
+        label: 66a7e5baa9cc273448fffacd8333bc4e
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\metadata\\66\\66a7e5baa9cc273448fffacd8333bc4e"
+          projectPath: Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e.info
+        label: 66a7e5baa9cc273448fffacd8333bc4e.info
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e.info
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\metadata\\66\\66a7e5baa9cc273448fffacd8333bc4e.info"
+          projectPath: Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e.info
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ScriptAssemblies
+        label: ScriptAssemblies
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ScriptAssemblies\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UnityProjekti\Library\ShaderCache
+        label: ShaderCache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\0
+        label: 0
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\0\00e4238231ee0bad854fe6841982c297.bin
+        label: 00e4238231ee0bad854fe6841982c297.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\0\00e4238231ee0bad854fe6841982c297.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\00e4238231ee0bad854fe6841982c297.bin"
+          projectPath: Library\ShaderCache\0\00e4238231ee0bad854fe6841982c297.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\0\021826f605ec5f93750e623cbdb83187.bin
+        label: 021826f605ec5f93750e623cbdb83187.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\0\021826f605ec5f93750e623cbdb83187.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\021826f605ec5f93750e623cbdb83187.bin"
+          projectPath: Library\ShaderCache\0\021826f605ec5f93750e623cbdb83187.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\0\09cb9e8459985afdfec382c1e4348a8c.bin
+        label: 09cb9e8459985afdfec382c1e4348a8c.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\0\09cb9e8459985afdfec382c1e4348a8c.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\09cb9e8459985afdfec382c1e4348a8c.bin"
+          projectPath: Library\ShaderCache\0\09cb9e8459985afdfec382c1e4348a8c.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\0\09d86f75d88b70f627292096c3d29abc.bin
+        label: 09d86f75d88b70f627292096c3d29abc.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\0\09d86f75d88b70f627292096c3d29abc.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\09d86f75d88b70f627292096c3d29abc.bin"
+          projectPath: Library\ShaderCache\0\09d86f75d88b70f627292096c3d29abc.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\6
+        label: 6
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\6\66eae8da7759095efeaebe828803f76c.bin
+        label: 66eae8da7759095efeaebe828803f76c.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\6\66eae8da7759095efeaebe828803f76c.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\6\\66eae8da7759095efeaebe828803f76c.bin"
+          projectPath: Library\ShaderCache\6\66eae8da7759095efeaebe828803f76c.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\6\6a0e2bec34469dacb4553c1e9edd9d01.bin
+        label: 6a0e2bec34469dacb4553c1e9edd9d01.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\6\6a0e2bec34469dacb4553c1e9edd9d01.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\6\\6a0e2bec34469dacb4553c1e9edd9d01.bin"
+          projectPath: Library\ShaderCache\6\6a0e2bec34469dacb4553c1e9edd9d01.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\6\6d4df00a7c63f986be56907446b348ad.bin
+        label: 6d4df00a7c63f986be56907446b348ad.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\6\6d4df00a7c63f986be56907446b348ad.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\6\\6d4df00a7c63f986be56907446b348ad.bin"
+          projectPath: Library\ShaderCache\6\6d4df00a7c63f986be56907446b348ad.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\7
+        label: 7
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\7\71a4ddec3f7eeced576dde832e8c238e.bin
+        label: 71a4ddec3f7eeced576dde832e8c238e.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\7\71a4ddec3f7eeced576dde832e8c238e.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\7\\71a4ddec3f7eeced576dde832e8c238e.bin"
+          projectPath: Library\ShaderCache\7\71a4ddec3f7eeced576dde832e8c238e.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\7\7307977344cd624cafbabd51a597309e.bin
+        label: 7307977344cd624cafbabd51a597309e.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\7\7307977344cd624cafbabd51a597309e.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\7\\7307977344cd624cafbabd51a597309e.bin"
+          projectPath: Library\ShaderCache\7\7307977344cd624cafbabd51a597309e.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\7\7e8b07aabe0e8185fbc3bcdaadd39c02.bin
+        label: 7e8b07aabe0e8185fbc3bcdaadd39c02.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\7\7e8b07aabe0e8185fbc3bcdaadd39c02.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\7\\7e8b07aabe0e8185fbc3bcdaadd39c02.bin"
+          projectPath: Library\ShaderCache\7\7e8b07aabe0e8185fbc3bcdaadd39c02.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\9
+        label: 9
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\9\980540595fa434fbd705aac9875d593c.bin
+        label: 980540595fa434fbd705aac9875d593c.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\9\980540595fa434fbd705aac9875d593c.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\9\\980540595fa434fbd705aac9875d593c.bin"
+          projectPath: Library\ShaderCache\9\980540595fa434fbd705aac9875d593c.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\b
+        label: b
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\b\b503c07005c4459bafca1ac8735a26f1.bin
+        label: b503c07005c4459bafca1ac8735a26f1.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\b\b503c07005c4459bafca1ac8735a26f1.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\b\\b503c07005c4459bafca1ac8735a26f1.bin"
+          projectPath: Library\ShaderCache\b\b503c07005c4459bafca1ac8735a26f1.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\c
+        label: c
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\c\c8b2fa33af6553568f9a56caf6c24896.bin
+        label: c8b2fa33af6553568f9a56caf6c24896.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\c\c8b2fa33af6553568f9a56caf6c24896.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\c\\c8b2fa33af6553568f9a56caf6c24896.bin"
+          projectPath: Library\ShaderCache\c\c8b2fa33af6553568f9a56caf6c24896.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\d
+        label: d
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\d\d0353984165695fafc6853f9caf76a2a.bin
+        label: d0353984165695fafc6853f9caf76a2a.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\d\d0353984165695fafc6853f9caf76a2a.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\d\\d0353984165695fafc6853f9caf76a2a.bin"
+          projectPath: Library\ShaderCache\d\d0353984165695fafc6853f9caf76a2a.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\d\d099073d2d34cf86d22f6046cf2e035f.bin
+        label: d099073d2d34cf86d22f6046cf2e035f.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\d\d099073d2d34cf86d22f6046cf2e035f.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\d\\d099073d2d34cf86d22f6046cf2e035f.bin"
+          projectPath: Library\ShaderCache\d\d099073d2d34cf86d22f6046cf2e035f.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\e
+        label: e
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\e\e196e6e0936f321ceed4ee4df3ed2151.bin
+        label: e196e6e0936f321ceed4ee4df3ed2151.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\e\e196e6e0936f321ceed4ee4df3ed2151.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\e\\e196e6e0936f321ceed4ee4df3ed2151.bin"
+          projectPath: Library\ShaderCache\e\e196e6e0936f321ceed4ee4df3ed2151.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\e\ec5c49b6c7625c5c6145bbe0464ab560.bin
+        label: ec5c49b6c7625c5c6145bbe0464ab560.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\e\ec5c49b6c7625c5c6145bbe0464ab560.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\e\\ec5c49b6c7625c5c6145bbe0464ab560.bin"
+          projectPath: Library\ShaderCache\e\ec5c49b6c7625c5c6145bbe0464ab560.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\ShaderCache\f
+        label: f
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\ShaderCache\f\f084652f5ef11f2bfa712fca91a5a2a5.bin
+        label: f084652f5ef11f2bfa712fca91a5a2a5.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\ShaderCache\f\f084652f5ef11f2bfa712fca91a5a2a5.bin
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\f\\f084652f5ef11f2bfa712fca91a5a2a5.bin"
+          projectPath: Library\ShaderCache\f\f084652f5ef11f2bfa712fca91a5a2a5.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        label: shadercompiler-UnityShaderCompiler.exe0.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UnityProjekti\Library\StateCache
+        label: StateCache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\StateCache\Hierarchy
+        label: Hierarchy
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\StateCache\Hierarchy\63d59e-mainStage.json
+        label: 63d59e-mainStage.json
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\StateCache\Hierarchy\63d59e-mainStage.json
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\Hierarchy\\63d59e-mainStage.json"
+          projectPath: Library\StateCache\Hierarchy\63d59e-mainStage.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UnityProjekti\Library\StateCache\SceneView
+        label: SceneView
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Library\StateCache\SceneView\a8ac84-mainStage.json
+        label: a8ac84-mainStage.json
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Library\StateCache\SceneView\a8ac84-mainStage.json
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\SceneView\\a8ac84-mainStage.json"
+          projectPath: Library\StateCache\SceneView\a8ac84-mainStage.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UnityProjekti\obj
+        label: obj
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\obj\Debug
+        label: Debug
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        label: Assembly-CSharp.csproj.CoreCompileInputs.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UnityProjekti\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        label: Assembly-CSharp.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UnityProjekti\Temp
         label: Temp
         level: 1
@@ -891,6 +2245,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: UnityProjekti\Temp\__Backupscenes
+        label: __Backupscenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UnityProjekti\Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\__Backupscenes\0.backup
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\__Backupscenes\\0.backup"
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: UnityProjekti\Temp\UnityLockfile
         label: UnityLockfile
         level: 2
@@ -906,6 +2296,564 @@ MonoBehaviour:
           path: UnityProjekti\Temp\UnityLockfile
           fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityLockfile"
           projectPath: Temp\UnityLockfile
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-00147e35a3fe33846b3b6824731105a0
+        label: UnityTempFile-00147e35a3fe33846b3b6824731105a0
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-00147e35a3fe33846b3b6824731105a0
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-00147e35a3fe33846b3b6824731105a0"
+          projectPath: Temp\UnityTempFile-00147e35a3fe33846b3b6824731105a0
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89
+        label: UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89"
+          projectPath: Temp\UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-0cd440692052e2748bc88a1732bce670
+        label: UnityTempFile-0cd440692052e2748bc88a1732bce670
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-0cd440692052e2748bc88a1732bce670
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-0cd440692052e2748bc88a1732bce670"
+          projectPath: Temp\UnityTempFile-0cd440692052e2748bc88a1732bce670
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-218c5097078e5fe4a9ec453a5886245e
+        label: UnityTempFile-218c5097078e5fe4a9ec453a5886245e
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-218c5097078e5fe4a9ec453a5886245e
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-218c5097078e5fe4a9ec453a5886245e"
+          projectPath: Temp\UnityTempFile-218c5097078e5fe4a9ec453a5886245e
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-222a94553282ae047b9ab223ebca468f
+        label: UnityTempFile-222a94553282ae047b9ab223ebca468f
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-222a94553282ae047b9ab223ebca468f
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-222a94553282ae047b9ab223ebca468f"
+          projectPath: Temp\UnityTempFile-222a94553282ae047b9ab223ebca468f
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-24542f13b59f53244bf5b949dbc3950a
+        label: UnityTempFile-24542f13b59f53244bf5b949dbc3950a
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-24542f13b59f53244bf5b949dbc3950a
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-24542f13b59f53244bf5b949dbc3950a"
+          projectPath: Temp\UnityTempFile-24542f13b59f53244bf5b949dbc3950a
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9
+        label: UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9"
+          projectPath: Temp\UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f
+        label: UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f"
+          projectPath: Temp\UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-3fff36e64d45e4942a07623cb41d54d9
+        label: UnityTempFile-3fff36e64d45e4942a07623cb41d54d9
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-3fff36e64d45e4942a07623cb41d54d9
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-3fff36e64d45e4942a07623cb41d54d9"
+          projectPath: Temp\UnityTempFile-3fff36e64d45e4942a07623cb41d54d9
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-408422befe3534d4286ac208b47b58c0
+        label: UnityTempFile-408422befe3534d4286ac208b47b58c0
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-408422befe3534d4286ac208b47b58c0
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-408422befe3534d4286ac208b47b58c0"
+          projectPath: Temp\UnityTempFile-408422befe3534d4286ac208b47b58c0
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe
+        label: UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe"
+          projectPath: Temp\UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-5040cc7b08897b34fb436d0ba230a63b
+        label: UnityTempFile-5040cc7b08897b34fb436d0ba230a63b
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-5040cc7b08897b34fb436d0ba230a63b
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-5040cc7b08897b34fb436d0ba230a63b"
+          projectPath: Temp\UnityTempFile-5040cc7b08897b34fb436d0ba230a63b
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-5973a595cbf966e4c829827c9502641d
+        label: UnityTempFile-5973a595cbf966e4c829827c9502641d
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-5973a595cbf966e4c829827c9502641d
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-5973a595cbf966e4c829827c9502641d"
+          projectPath: Temp\UnityTempFile-5973a595cbf966e4c829827c9502641d
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-6594c243c9b211349993067815f11d8f
+        label: UnityTempFile-6594c243c9b211349993067815f11d8f
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-6594c243c9b211349993067815f11d8f
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-6594c243c9b211349993067815f11d8f"
+          projectPath: Temp\UnityTempFile-6594c243c9b211349993067815f11d8f
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4
+        label: UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4"
+          projectPath: Temp\UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-905ec7a1281f94c469bca5a6810cb39a
+        label: UnityTempFile-905ec7a1281f94c469bca5a6810cb39a
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-905ec7a1281f94c469bca5a6810cb39a
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-905ec7a1281f94c469bca5a6810cb39a"
+          projectPath: Temp\UnityTempFile-905ec7a1281f94c469bca5a6810cb39a
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-92c9348c4335be844945f8c8347460e8
+        label: UnityTempFile-92c9348c4335be844945f8c8347460e8
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-92c9348c4335be844945f8c8347460e8
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-92c9348c4335be844945f8c8347460e8"
+          projectPath: Temp\UnityTempFile-92c9348c4335be844945f8c8347460e8
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb
+        label: UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb"
+          projectPath: Temp\UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243
+        label: UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243"
+          projectPath: Temp\UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-a4b3629f113fb184a9afe3c2229854b4
+        label: UnityTempFile-a4b3629f113fb184a9afe3c2229854b4
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-a4b3629f113fb184a9afe3c2229854b4
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-a4b3629f113fb184a9afe3c2229854b4"
+          projectPath: Temp\UnityTempFile-a4b3629f113fb184a9afe3c2229854b4
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958
+        label: UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958"
+          projectPath: Temp\UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c
+        label: UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c"
+          projectPath: Temp\UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-c8ce5fa60bba89047aace794ab47c789
+        label: UnityTempFile-c8ce5fa60bba89047aace794ab47c789
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-c8ce5fa60bba89047aace794ab47c789
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-c8ce5fa60bba89047aace794ab47c789"
+          projectPath: Temp\UnityTempFile-c8ce5fa60bba89047aace794ab47c789
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-d64c75624bf81c54ab585a17782aff39
+        label: UnityTempFile-d64c75624bf81c54ab585a17782aff39
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-d64c75624bf81c54ab585a17782aff39
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-d64c75624bf81c54ab585a17782aff39"
+          projectPath: Temp\UnityTempFile-d64c75624bf81c54ab585a17782aff39
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-e04a0f727842a92428f8c96666c60174
+        label: UnityTempFile-e04a0f727842a92428f8c96666c60174
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-e04a0f727842a92428f8c96666c60174
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-e04a0f727842a92428f8c96666c60174"
+          projectPath: Temp\UnityTempFile-e04a0f727842a92428f8c96666c60174
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6
+        label: UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6"
+          projectPath: Temp\UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8
+        label: UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8"
+          projectPath: Temp\UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae
+        label: UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae"
+          projectPath: Temp\UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2
+        label: UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2"
+          projectPath: Temp\UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-f794026fb2743a5468151f07892b73ad
+        label: UnityTempFile-f794026fb2743a5468151f07892b73ad
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-f794026fb2743a5468151f07892b73ad
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-f794026fb2743a5468151f07892b73ad"
+          projectPath: Temp\UnityTempFile-f794026fb2743a5468151f07892b73ad
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UnityProjekti\Temp\UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42
+        label: UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Temp\UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42"
+          projectPath: Temp\UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -929,6 +2877,36 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: UnityProjekti\Assets\Palapeli\LiikutaPalaa.cs
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Palapeli\\LiikutaPalaa.cs"
+      projectPath: Assets\Palapeli\LiikutaPalaa.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Assets\Palapeli\LiikutaPalaa.cs.meta
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Palapeli\\LiikutaPalaa.cs.meta"
+      projectPath: Assets\Palapeli\LiikutaPalaa.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+      projectPath: Assets\Scenes\Minipeli3.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\assetDatabase3
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\CurrentLayout.dwlt
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: UnityProjekti\Library\EditorInstance.json
       fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\EditorInstance.json"
       projectPath: Library\EditorInstance.json
@@ -971,26 +2949,464 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: UnityProjekti\Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\metadata\\66\\66a7e5baa9cc273448fffacd8333bc4e"
+      projectPath: Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e.info
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\metadata\\66\\66a7e5baa9cc273448fffacd8333bc4e.info"
+      projectPath: Library\metadata\66\66a7e5baa9cc273448fffacd8333bc4e.info
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\ShaderCache\0\00e4238231ee0bad854fe6841982c297.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\00e4238231ee0bad854fe6841982c297.bin"
+      projectPath: Library\ShaderCache\0\00e4238231ee0bad854fe6841982c297.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\0\021826f605ec5f93750e623cbdb83187.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\021826f605ec5f93750e623cbdb83187.bin"
+      projectPath: Library\ShaderCache\0\021826f605ec5f93750e623cbdb83187.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\0\09cb9e8459985afdfec382c1e4348a8c.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\09cb9e8459985afdfec382c1e4348a8c.bin"
+      projectPath: Library\ShaderCache\0\09cb9e8459985afdfec382c1e4348a8c.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\0\09d86f75d88b70f627292096c3d29abc.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\0\\09d86f75d88b70f627292096c3d29abc.bin"
+      projectPath: Library\ShaderCache\0\09d86f75d88b70f627292096c3d29abc.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\6\66eae8da7759095efeaebe828803f76c.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\6\\66eae8da7759095efeaebe828803f76c.bin"
+      projectPath: Library\ShaderCache\6\66eae8da7759095efeaebe828803f76c.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\6\6a0e2bec34469dacb4553c1e9edd9d01.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\6\\6a0e2bec34469dacb4553c1e9edd9d01.bin"
+      projectPath: Library\ShaderCache\6\6a0e2bec34469dacb4553c1e9edd9d01.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\6\6d4df00a7c63f986be56907446b348ad.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\6\\6d4df00a7c63f986be56907446b348ad.bin"
+      projectPath: Library\ShaderCache\6\6d4df00a7c63f986be56907446b348ad.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\7\71a4ddec3f7eeced576dde832e8c238e.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\7\\71a4ddec3f7eeced576dde832e8c238e.bin"
+      projectPath: Library\ShaderCache\7\71a4ddec3f7eeced576dde832e8c238e.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\7\7307977344cd624cafbabd51a597309e.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\7\\7307977344cd624cafbabd51a597309e.bin"
+      projectPath: Library\ShaderCache\7\7307977344cd624cafbabd51a597309e.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\7\7e8b07aabe0e8185fbc3bcdaadd39c02.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\7\\7e8b07aabe0e8185fbc3bcdaadd39c02.bin"
+      projectPath: Library\ShaderCache\7\7e8b07aabe0e8185fbc3bcdaadd39c02.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\9\980540595fa434fbd705aac9875d593c.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\9\\980540595fa434fbd705aac9875d593c.bin"
+      projectPath: Library\ShaderCache\9\980540595fa434fbd705aac9875d593c.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\b\b503c07005c4459bafca1ac8735a26f1.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\b\\b503c07005c4459bafca1ac8735a26f1.bin"
+      projectPath: Library\ShaderCache\b\b503c07005c4459bafca1ac8735a26f1.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\c\c8b2fa33af6553568f9a56caf6c24896.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\c\\c8b2fa33af6553568f9a56caf6c24896.bin"
+      projectPath: Library\ShaderCache\c\c8b2fa33af6553568f9a56caf6c24896.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\d\d0353984165695fafc6853f9caf76a2a.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\d\\d0353984165695fafc6853f9caf76a2a.bin"
+      projectPath: Library\ShaderCache\d\d0353984165695fafc6853f9caf76a2a.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\d\d099073d2d34cf86d22f6046cf2e035f.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\d\\d099073d2d34cf86d22f6046cf2e035f.bin"
+      projectPath: Library\ShaderCache\d\d099073d2d34cf86d22f6046cf2e035f.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\e\e196e6e0936f321ceed4ee4df3ed2151.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\e\\e196e6e0936f321ceed4ee4df3ed2151.bin"
+      projectPath: Library\ShaderCache\e\e196e6e0936f321ceed4ee4df3ed2151.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\e\ec5c49b6c7625c5c6145bbe0464ab560.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\e\\ec5c49b6c7625c5c6145bbe0464ab560.bin"
+      projectPath: Library\ShaderCache\e\ec5c49b6c7625c5c6145bbe0464ab560.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\ShaderCache\f\f084652f5ef11f2bfa712fca91a5a2a5.bin
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\ShaderCache\\f\\f084652f5ef11f2bfa712fca91a5a2a5.bin"
+      projectPath: Library\ShaderCache\f\f084652f5ef11f2bfa712fca91a5a2a5.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\StateCache\Hierarchy\63d59e-mainStage.json
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\Hierarchy\\63d59e-mainStage.json"
+      projectPath: Library\StateCache\Hierarchy\63d59e-mainStage.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\StateCache\SceneView\a8ac84-mainStage.json
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\StateCache\\SceneView\\a8ac84-mainStage.json"
+      projectPath: Library\StateCache\SceneView\a8ac84-mainStage.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Temp\__Backupscenes\0.backup
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\__Backupscenes\\0.backup"
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: UnityProjekti\Temp\UnityLockfile
       fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityLockfile"
       projectPath: Temp\UnityLockfile
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    changedFilesText: 8 changed files
+    - path: UnityProjekti\Temp\UnityTempFile-00147e35a3fe33846b3b6824731105a0
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-00147e35a3fe33846b3b6824731105a0"
+      projectPath: Temp\UnityTempFile-00147e35a3fe33846b3b6824731105a0
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89"
+      projectPath: Temp\UnityTempFile-017c3fb34ae5b404994a4d78efb7aa89
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-0cd440692052e2748bc88a1732bce670
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-0cd440692052e2748bc88a1732bce670"
+      projectPath: Temp\UnityTempFile-0cd440692052e2748bc88a1732bce670
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-218c5097078e5fe4a9ec453a5886245e
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-218c5097078e5fe4a9ec453a5886245e"
+      projectPath: Temp\UnityTempFile-218c5097078e5fe4a9ec453a5886245e
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-222a94553282ae047b9ab223ebca468f
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-222a94553282ae047b9ab223ebca468f"
+      projectPath: Temp\UnityTempFile-222a94553282ae047b9ab223ebca468f
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-24542f13b59f53244bf5b949dbc3950a
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-24542f13b59f53244bf5b949dbc3950a"
+      projectPath: Temp\UnityTempFile-24542f13b59f53244bf5b949dbc3950a
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9"
+      projectPath: Temp\UnityTempFile-3267b5bb791a55a4fb82b87d9ecdf5a9
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f"
+      projectPath: Temp\UnityTempFile-35af874153f25ea4cb4e42cc01f1e17f
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-3fff36e64d45e4942a07623cb41d54d9
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-3fff36e64d45e4942a07623cb41d54d9"
+      projectPath: Temp\UnityTempFile-3fff36e64d45e4942a07623cb41d54d9
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-408422befe3534d4286ac208b47b58c0
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-408422befe3534d4286ac208b47b58c0"
+      projectPath: Temp\UnityTempFile-408422befe3534d4286ac208b47b58c0
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe"
+      projectPath: Temp\UnityTempFile-4b6a86c744631af4fb85c53fd0e9fdfe
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-5040cc7b08897b34fb436d0ba230a63b
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-5040cc7b08897b34fb436d0ba230a63b"
+      projectPath: Temp\UnityTempFile-5040cc7b08897b34fb436d0ba230a63b
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-5973a595cbf966e4c829827c9502641d
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-5973a595cbf966e4c829827c9502641d"
+      projectPath: Temp\UnityTempFile-5973a595cbf966e4c829827c9502641d
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-6594c243c9b211349993067815f11d8f
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-6594c243c9b211349993067815f11d8f"
+      projectPath: Temp\UnityTempFile-6594c243c9b211349993067815f11d8f
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4"
+      projectPath: Temp\UnityTempFile-7b011b9196f72014aa48cf1e7e390ec4
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-905ec7a1281f94c469bca5a6810cb39a
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-905ec7a1281f94c469bca5a6810cb39a"
+      projectPath: Temp\UnityTempFile-905ec7a1281f94c469bca5a6810cb39a
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-92c9348c4335be844945f8c8347460e8
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-92c9348c4335be844945f8c8347460e8"
+      projectPath: Temp\UnityTempFile-92c9348c4335be844945f8c8347460e8
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb"
+      projectPath: Temp\UnityTempFile-975a1dba3afe30d448daaf6c72a2a1bb
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243"
+      projectPath: Temp\UnityTempFile-9b1d468dd1f0f434abe3fb0a224fb243
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-a4b3629f113fb184a9afe3c2229854b4
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-a4b3629f113fb184a9afe3c2229854b4"
+      projectPath: Temp\UnityTempFile-a4b3629f113fb184a9afe3c2229854b4
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958"
+      projectPath: Temp\UnityTempFile-b22f7d3b37a1ed0479bcaf7c0bcbe958
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c"
+      projectPath: Temp\UnityTempFile-c7713d845463cab4bbd0cfc26d6d389c
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-c8ce5fa60bba89047aace794ab47c789
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-c8ce5fa60bba89047aace794ab47c789"
+      projectPath: Temp\UnityTempFile-c8ce5fa60bba89047aace794ab47c789
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-d64c75624bf81c54ab585a17782aff39
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-d64c75624bf81c54ab585a17782aff39"
+      projectPath: Temp\UnityTempFile-d64c75624bf81c54ab585a17782aff39
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-e04a0f727842a92428f8c96666c60174
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-e04a0f727842a92428f8c96666c60174"
+      projectPath: Temp\UnityTempFile-e04a0f727842a92428f8c96666c60174
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6"
+      projectPath: Temp\UnityTempFile-e48f106e9a34bc04e8a5bd74874db3c6
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8"
+      projectPath: Temp\UnityTempFile-ebf7fa0b6c8046b4491a6860e71a98b8
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae"
+      projectPath: Temp\UnityTempFile-f2c7ec4f4ee1cd44884981bb06b549ae
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2"
+      projectPath: Temp\UnityTempFile-f697a1ba2c20c5d44982d50cf79991d2
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-f794026fb2743a5468151f07892b73ad
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-f794026fb2743a5468151f07892b73ad"
+      projectPath: Temp\UnityTempFile-f794026fb2743a5468151f07892b73ad
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UnityProjekti\Temp\UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Temp\\UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42"
+      projectPath: Temp\UnityTempFile-fcd885b10fbd2de4fb3d2c9216af2f42
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 71 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-05-06T19:09:00.778+03:00
+      updatedTimeString: 2020-05-07T15:18:09.457+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-05-06T19:09:05.793+03:00
+      updatedTimeString: 2020-05-07T15:18:09.595+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-05-06T19:09:02.751+03:00
+      updatedTimeString: 2020-05-07T15:18:11.143+03:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: f8a5513a04ef08031c0f89f8a5d50389b73e6225
+      mergeA: 
+      mergeB: 
+      authorName: Oskari Hilekallio
+      authorEmail: oskuhile@gmail.com
+      commitEmail: oskuhile@gmail.com
+      commitName: Oskari Hilekallio
+      summary: "pient\xE4 lis\xE4yst\xE4 Minipeli3 sceneen"
+      description: 
+      timeString: 2020-05-06T20:24:22.000+03:00
+      commitTimeString: 2020-05-06T20:24:22.000+03:00
+      changes:
+      - path: UnityProjekti\Assets\Scenes\Menu.unity
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Menu.unity"
+        projectPath: Assets\Scenes\Menu.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+        projectPath: Assets\Scenes\Minipeli3.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\assetDatabase3
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\gfu\cache\branches.yaml
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\branches.yaml"
+        projectPath: Library\gfu\cache\branches.yaml
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\gfu\cache\gitlocks.yaml
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlocks.yaml"
+        projectPath: Library\gfu\cache\gitlocks.yaml
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\gfu\cache\gitlog.yaml
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlog.yaml"
+        projectPath: Library\gfu\cache\gitlog.yaml
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\gfu\cache\gitstatusentries.yaml
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitstatusentries.yaml"
+        projectPath: Library\gfu\cache\gitstatusentries.yaml
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\gfu\cache\gittrackingstatus.yaml
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+        projectPath: Library\gfu\cache\gittrackingstatus.yaml
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
+        projectPath: Library\gfu\cache\repoinfo.yaml
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ccd4f6d170370f53b9ffdc35bdca0fddd4dd6f4f
+      mergeA: 
+      mergeB: 
+      authorName: Oskari Hilekallio
+      authorEmail: oskuhile@gmail.com
+      commitEmail: oskuhile@gmail.com
+      commitName: Oskari Hilekallio
+      summary: a
+      description: 
+      timeString: 2020-05-06T19:13:23.000+03:00
+      commitTimeString: 2020-05-06T19:13:23.000+03:00
+      changes:
+      - path: UnityProjekti\Library\CurrentLayout.dwlt
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UnityProjekti\Library\gfu\cache\branches.yaml
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\branches.yaml"
+        projectPath: Library\gfu\cache\branches.yaml
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: bc33dccbff220c425115e91652ad3c3cf0bbe65a
       mergeA: 
       mergeB: 
@@ -16296,14 +18712,104 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2020-05-06T19:06:47.593+03:00
+      updatedTimeString: 2020-05-07T15:16:02.259+03:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2020-05-06T19:06:44.252+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: f8a5513a04ef08031c0f89f8a5d50389b73e6225
+        mergeA: 
+        mergeB: 
+        authorName: Oskari Hilekallio
+        authorEmail: oskuhile@gmail.com
+        commitEmail: oskuhile@gmail.com
+        commitName: Oskari Hilekallio
+        summary: "pient\xE4 lis\xE4yst\xE4 Minipeli3 sceneen"
+        description: 
+        timeString: 2020-05-06T20:24:22.000+03:00
+        commitTimeString: 2020-05-06T20:24:22.000+03:00
+        changes:
+        - path: UnityProjekti\Assets\Scenes\Menu.unity
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Menu.unity"
+          projectPath: Assets\Scenes\Menu.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+          projectPath: Assets\Scenes\Minipeli3.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\assetDatabase3
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\gfu\cache\branches.yaml
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\branches.yaml"
+          projectPath: Library\gfu\cache\branches.yaml
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\gfu\cache\gitlocks.yaml
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlocks.yaml"
+          projectPath: Library\gfu\cache\gitlocks.yaml
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\gfu\cache\gitlog.yaml
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlog.yaml"
+          projectPath: Library\gfu\cache\gitlog.yaml
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\gfu\cache\gitstatusentries.yaml
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitstatusentries.yaml"
+          projectPath: Library\gfu\cache\gitstatusentries.yaml
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\gfu\cache\gittrackingstatus.yaml
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+          projectPath: Library\gfu\cache\gittrackingstatus.yaml
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ccd4f6d170370f53b9ffdc35bdca0fddd4dd6f4f
+        mergeA: 
+        mergeB: 
+        authorName: Oskari Hilekallio
+        authorEmail: oskuhile@gmail.com
+        commitEmail: oskuhile@gmail.com
+        commitName: Oskari Hilekallio
+        summary: a
+        description: 
+        timeString: 2020-05-06T19:13:23.000+03:00
+        commitTimeString: 2020-05-06T19:13:23.000+03:00
+        changes:
+        - path: UnityProjekti\Library\CurrentLayout.dwlt
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UnityProjekti\Library\gfu\cache\branches.yaml
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\branches.yaml"
+          projectPath: Library\gfu\cache\branches.yaml
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: bc33dccbff220c425115e91652ad3c3cf0bbe65a
         mergeA: 
         mergeB: 
@@ -31616,17 +34122,17 @@ MonoBehaviour:
       statusAhead: 0
       selectedIndex: 0
     selectedEntry:
-      commitID: bc33dccbff220c425115e91652ad3c3cf0bbe65a
+      commitID: f8a5513a04ef08031c0f89f8a5d50389b73e6225
       mergeA: 
       mergeB: 
       authorName: Oskari Hilekallio
       authorEmail: oskuhile@gmail.com
       commitEmail: oskuhile@gmail.com
       commitName: Oskari Hilekallio
-      summary: "minipelille lis\xE4yst\xE4"
+      summary: "pient\xE4 lis\xE4yst\xE4 Minipeli3 sceneen"
       description: 
-      timeString: 2020-05-06T19:01:45.000+03:00
-      commitTimeString: 2020-05-06T19:01:45.000+03:00
+      timeString: 2020-05-06T20:24:22.000+03:00
+      commitTimeString: 2020-05-06T20:24:22.000+03:00
       changes:
       - path: UnityProjekti\Assets\Scenes\Menu.unity
         fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Menu.unity"
@@ -31634,9 +34140,9 @@ MonoBehaviour:
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
-      - path: UnityProjekti\Library\CurrentLayout.dwlt
-        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
-        projectPath: Library\CurrentLayout.dwlt
+      - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+        projectPath: Assets\Scenes\Minipeli3.unity
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
@@ -31676,33 +34182,9 @@ MonoBehaviour:
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
-      - path: UnityProjekti\Library\gfu\cache\gituser.yaml
-        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gituser.yaml"
-        projectPath: Library\gfu\cache\gituser.yaml
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
       - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
         fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
         projectPath: Library\gfu\cache\repoinfo.yaml
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: UnityProjekti\Library\metadata\fd\fd688fc1726a66844b9e8c629f97ed49
-        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\metadata\\fd\\fd688fc1726a66844b9e8c629f97ed49"
-        projectPath: Library\metadata\fd\fd688fc1726a66844b9e8c629f97ed49
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
-        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
-        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: UnityProjekti\ProjectSettings\EditorBuildSettings.asset
-        fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\ProjectSettings\\EditorBuildSettings.asset"
-        projectPath: ProjectSettings\EditorBuildSettings.asset
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
@@ -31718,9 +34200,6 @@ MonoBehaviour:
         - UnityProjekti\Library
         - UnityProjekti\Library\gfu
         - UnityProjekti\Library\gfu\cache
-        - UnityProjekti\Library\metadata
-        - UnityProjekti\Library\metadata\fd
-        - UnityProjekti\ProjectSettings
         values:
         - path: UnityProjekti
           label: UnityProjekti
@@ -31815,60 +34294,6 @@ MonoBehaviour:
         - path: UnityProjekti\Library\gfu\cache
           label: cache
           level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UnityProjekti\Library\metadata
-          label: metadata
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UnityProjekti\Library\metadata\fd
-          label: fd
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UnityProjekti\ProjectSettings
-          label: ProjectSettings
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -31984,6 +34409,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
+      - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+        label: Minipeli3.unity
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+          projectPath: Assets\Scenes\Minipeli3.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - path: UnityProjekti\Library
         label: Library
         level: 1
@@ -32001,24 +34444,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: UnityProjekti\Library\CurrentLayout.dwlt
-        label: CurrentLayout.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UnityProjekti\Library\CurrentLayout.dwlt
-          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\CurrentLayout.dwlt"
-          projectPath: Library\CurrentLayout.dwlt
-          originalPath: 
-          indexStatus: 3
           workTreeStatus: 0
       - path: UnityProjekti\Library\assetDatabase3
         label: assetDatabase3
@@ -32164,24 +34589,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
-      - path: UnityProjekti\Library\gfu\cache\gituser.yaml
-        label: gituser.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UnityProjekti\Library\gfu\cache\gituser.yaml
-          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gituser.yaml"
-          projectPath: Library\gfu\cache\gituser.yaml
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
       - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
         label: repoinfo.yaml
         level: 4
@@ -32197,114 +34604,6 @@ MonoBehaviour:
           path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
           fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
           projectPath: Library\gfu\cache\repoinfo.yaml
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: UnityProjekti\Library\metadata
-        label: metadata
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UnityProjekti\Library\metadata\fd
-        label: fd
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UnityProjekti\Library\metadata\fd\fd688fc1726a66844b9e8c629f97ed49
-        label: fd688fc1726a66844b9e8c629f97ed49
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UnityProjekti\Library\metadata\fd\fd688fc1726a66844b9e8c629f97ed49
-          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\metadata\\fd\\fd688fc1726a66844b9e8c629f97ed49"
-          projectPath: Library\metadata\fd\fd688fc1726a66844b9e8c629f97ed49
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: UnityProjekti\ProjectSettings
-        label: ProjectSettings
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UnityProjekti\ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UnityProjekti\ProjectSettings\EditorBuildSettings.asset
-          fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\ProjectSettings\\EditorBuildSettings.asset"
-          projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
@@ -32381,28 +34680,52 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 tammi 0001, 02:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2020-05-06T18:43:18.900+03:00
+      updatedTimeString: 2020-05-06T20:19:04.281+03:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2020-05-06T18:43:57.795+03:00
+      updatedTimeString: 2020-05-06T20:20:03.549+03:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-05-06T18:43:23.921+03:00
+      updatedTimeString: 2020-05-06T20:19:09.331+03:00
       cacheType: 6
     lockedFiles: []
     gitStatusEntries:
-    - path: UnityProjekti\Library\assetDatabase3
-      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
-      projectPath: Library\assetDatabase3
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: UnityProjekti\Library\EditorInstance.json
       fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\EditorInstance.json"
       projectPath: Library\EditorInstance.json
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
+    - path: UnityProjekti\Library\gfu\cache\gitlocks.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\gfu\cache\gitlog.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: UnityProjekti\Library\shadercompiler-UnityShaderCompiler.exe0.log
       fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
       projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -32441,13 +34764,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-05-06T19:09:00.778+03:00
+    updatedTimeString: 2020-05-07T08:43:25.209+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-05-06T19:09:05.809+03:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-05-06T19:09:05.793+03:00
+    updatedTimeString: 2020-05-07T15:17:04.717+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -32520,7 +34843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 626
-    width: 1431
+    width: 1469
     height: 374
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -32535,20 +34858,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e270000
-    m_LastClickedID: 10142
-    m_ExpandedIDs: 00000000dc260000
+    m_SelectedIDs: de260000
+    m_LastClickedID: 9950
+    m_ExpandedIDs: 00000000de260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -32576,7 +34899,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc260000
+    m_ExpandedIDs: 00000000de260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -32652,9 +34975,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1433
+    x: 1471
     y: 73
-    width: 485
+    width: 447
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -32689,7 +35012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 270
+    width: 202
     height: 533
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -32741,9 +35064,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 272
+    x: 204
     y: 73
-    width: 1157
+    width: 1263
     height: 533
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: a8ac847c47a6cd7458e0329128e88e16
@@ -32752,9 +35075,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 578.2354, y: 235.12529, z: -7.375}
+    m_Target: {x: 596.9059, y: 231.04672, z: -10.848386}
     speed: 2
-    m_Value: {x: 578.2354, y: 235.12529, z: -7.375}
+    m_Value: {x: 596.9059, y: 231.04672, z: -10.848386}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -32786,9 +35109,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 749.41907
+    m_Target: 1069.9757
     speed: 2
-    m_Value: 749.41907
+    m_Value: 1069.9757
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -32821,9 +35144,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 272
+    x: 204
     y: 73
-    width: 1157
+    width: 1263
     height: 533
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -32857,25 +35180,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1157
+      width: 1263
       height: 516
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 578.5, y: 258}
+    m_Translation: {x: 631.5, y: 258}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -578.5
+      x: -631.5
       y: -258
-      width: 1157
+      width: 1263
       height: 516
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1157, y: 533}
+  m_LastWindowPixelSize: {x: 1263, y: 533}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -32903,6 +35226,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 626
-    width: 1431
+    width: 1469
     height: 374
   m_PersistentViewDataDictionary: {fileID: 0}

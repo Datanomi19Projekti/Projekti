@@ -13,9 +13,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-05-06T20:22:49.259+03:00
-  initializedAtString: 2020-05-06T20:20:04.630+03:00
+  lastUpdatedAtString: 2020-05-12T15:31:20.198+03:00
+  initializedAtString: 2020-05-12T08:30:36.122+03:00
   log:
+  - commitID: f8a5513a04ef08031c0f89f8a5d50389b73e6225
+    mergeA: 
+    mergeB: 
+    authorName: Oskari Hilekallio
+    authorEmail: oskuhile@gmail.com
+    commitEmail: oskuhile@gmail.com
+    commitName: Oskari Hilekallio
+    summary: "pient\xE4 lis\xE4yst\xE4 Minipeli3 sceneen"
+    description: 
+    timeString: 2020-05-06T20:24:22.000+03:00
+    commitTimeString: 2020-05-06T20:24:22.000+03:00
+    changes:
+    - path: UnityProjekti\Assets\Scenes\Menu.unity
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Menu.unity"
+      projectPath: Assets\Scenes\Menu.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Assets\Scenes\Minipeli3.unity
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Assets\\Scenes\\Minipeli3.unity"
+      projectPath: Assets\Scenes\Minipeli3.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\assetDatabase3
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\assetDatabase3"
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\branches.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitlocks.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitlog.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityProjekti\Library\gfu\cache\repoinfo.yaml
+      fullPath: "F:\\Python teht\xE4v\xE4t\\Projekti\\Projekti\\UnityProjekti\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: ccd4f6d170370f53b9ffdc35bdca0fddd4dd6f4f
     mergeA: 
     mergeB: 
