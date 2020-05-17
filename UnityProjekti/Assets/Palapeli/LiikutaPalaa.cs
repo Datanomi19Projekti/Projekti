@@ -12,13 +12,10 @@ public class LiikutaPalaa : MonoBehaviour
     private float startPosY;
     private bool isBeingHeld = false;
 
-
-
     // Update is called once per frame
     void Update()
     {
-
-
+        Debug.Log(LoppuScreeni.muistipeliScore);
         /**
          * Kun hiirellä tai sormella pidetään palaa ja se ei ole lukittu, sitä siirretään hiiren tai mukana. Jos hiirellä päästää irti palasta se ei enää seuraa,
          * sormella ei kyseistä ongelmaa tule mutta testaamisen vuoksi täällä liikutetaan palaa myös.
@@ -32,7 +29,7 @@ public class LiikutaPalaa : MonoBehaviour
             checkPlacement = false;
 
             this.gameObject.transform.localPosition = new Vector2(mousePos.x - startPosX, mousePos.y - startPosY);
-            // raahatessa pala on ylimmäisenä
+            // raahatessa pala on ylimmäisenä, korkeudella 11.
             GetComponent<Renderer>().sortingOrder = 11;
         }
         
@@ -90,7 +87,7 @@ public class LiikutaPalaa : MonoBehaviour
          */
         if (other.gameObject.name == gameObject.name && checkPlacement == true)
         {
-            // pala siirtyy alimmaiseksi ettei liikuteltavat palat kulje paikalleen asesetut palan alta
+            // pala siirtyy alimmaiseksi ettei liikuteltavat palat kulje paikalleen asesetut palan alta. Korkeudella 2, koska taustasa olevat kuvat ovat tasoa 0 ja 1
             GetComponent<Renderer>().sortingOrder = 2;
             transform.position = other.gameObject.transform.position;
             isLocked = true;
@@ -99,6 +96,12 @@ public class LiikutaPalaa : MonoBehaviour
             GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
 
             LoppuScreeni.remaining--;
+            if (LoppuScreeni.muistipeliScore <= 0)
+            {
+                LoppuScreeni.muistipeliScore = 0;
+            }
+            LoppuScreeni.muistipeliScore += 6;
+            LoppuScreeni.siirrot++;
         }
         /**
          * Jos palan nimi ja socketin nimi eivät vasta toisiaan, niin pala muuttuu puoliksi läpinäkyväksi ja se ei loksahda paikoilleen, osoittaen että se ei ole oikeassa kohdassa
@@ -107,8 +110,14 @@ public class LiikutaPalaa : MonoBehaviour
         {
 
             // Jos pala ei ole oikean kohdan päällä, se vaihtuu puoliksi läpinäkyväksi
-            GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, .5f);
+            GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, .7f);
             checkPlacement = false;
+            if (LoppuScreeni.muistipeliScore <= 0)
+            {
+                LoppuScreeni.muistipeliScore = 0;
+            }
+            LoppuScreeni.muistipeliScore -= 2;
+            LoppuScreeni.siirrot++;
         }
         else
         {

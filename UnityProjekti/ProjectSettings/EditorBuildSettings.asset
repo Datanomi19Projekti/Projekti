@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minipeli3.unity
     guid: dee7d0396cf87d84cbe90b1abcd34076
+  - enabled: 1
+    path: Assets/Palapeli/PalapeliTulosRuutu.unity
+    guid: 74537b4938fda33498c243c7b3169ded
   m_configObjects: {}
