@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MainCard2 : MonoBehaviour
 {
-    [SerializeField] private SceneController2 controller2;
+    
+    [SerializeField] private SceneController2 controller2;  //viitataan eri luokkaan
     [SerializeField] private GameObject Card_back2;
     [SerializeField] private GameObject Correct;
     [SerializeField] private TextMesh scoreLabel;
@@ -17,7 +18,7 @@ public class MainCard2 : MonoBehaviour
         //jos kortti on "avattu", eli Card_Back on asetettu taustalle, peli lopetetaan
         if (Card_back2.GetComponent<SpriteRenderer>().sortingOrder == -2)
         {
-            controller2.Restart();
+            controller2.PlayMuistipeli2();
         }
         else
         {
@@ -33,7 +34,7 @@ public class MainCard2 : MonoBehaviour
             }
             else
             {
-                controller2.Restart();
+                controller2.PlayMuistipeli2();
             }
         }
       

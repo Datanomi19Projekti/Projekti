@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class UIButton : MonoBehaviour
 {
+    //Voidaan Unityn Inspectorissa asettaa GameObject, jossa koodi sijaitsee
     [SerializeField] private GameObject targetObject;
+    //Voidaan Unityn Inspectorissa asettaa metodin nimi
     [SerializeField] private string targetMessage;
     public Color highlightColor = Color.cyan;
 

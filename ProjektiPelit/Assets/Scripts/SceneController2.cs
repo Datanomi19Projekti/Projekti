@@ -104,10 +104,32 @@ public class SceneController2 : MonoBehaviour
 
     }
 
-    //Start-nappula
-    public void Restart()
-        {
-            SceneManager.LoadScene("Muistipeli2");
-        }
- } 
+    //Inspectorissa painikkeen Script: UIButton, Target Object: SceneController Target Message: PlayMuistipeli1
+    //Nämä omaksi scripticsi
+    public void PlayMuistipeli1()
+    {
+        SceneManager.LoadScene("Muistipeli1");
+    }
+
+    public void PlayMuistipeli2()
+    {
+        SceneManager.LoadScene("Muistipeli2");
+    }
+
+    public void PlayProfiili()
+    {
+        SceneManager.LoadScene("Kehitys");
+    }
+
+    public void PlayMainMenu()
+    {
+        SceneManager.LoadScene("Aloitusvalikko");
+    }
+    public void QuitGame()
+    {
+        Debug.Log("lopeta");
+        Application.Quit();
+    }
+}
+
 

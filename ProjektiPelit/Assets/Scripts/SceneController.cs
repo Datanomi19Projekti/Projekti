@@ -107,11 +107,30 @@ public class SceneController : MonoBehaviour
         _firstRevealed = null;
         _secondRevealed = null;
     }
-
-    public void Restart()
+    //Nämä omaksi scripticsi
+    public void PlayMuistipeli1()
     {
         SceneManager.LoadScene("Muistipeli1");
     }
 
+    public void PlayMuistipeli2()
+    {
+        SceneManager.LoadScene("Muistipeli2");
+    }
+
+    public void PlayProfiili()
+    {
+        SceneManager.LoadScene("Kehitys");
+    }
+
+    public void PlayMainMenu()
+    {
+        SceneManager.LoadScene("Aloitusvalikko");
+    }
+    public void QuitGame()
+    {
+        Debug.Log("lopeta");
+        Application.Quit();
+    }
 }
 
