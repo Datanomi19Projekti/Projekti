@@ -15,7 +15,6 @@ public class LiikutaPalaa : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(LoppuScreeni.muistipeliScore);
         /**
          * Kun hiirellä tai sormella pidetään palaa ja se ei ole lukittu, sitä siirretään hiiren tai mukana. Jos hiirellä päästää irti palasta se ei enää seuraa,
          * sormella ei kyseistä ongelmaa tule mutta testaamisen vuoksi täällä liikutetaan palaa myös.
@@ -32,9 +31,7 @@ public class LiikutaPalaa : MonoBehaviour
             // raahatessa pala on ylimmäisenä, korkeudella 11.
             GetComponent<Renderer>().sortingOrder = 11;
         }
-        
     }
-
 
     private void OnMouseDown()
     {
@@ -53,10 +50,7 @@ public class LiikutaPalaa : MonoBehaviour
             isBeingHeld = true;
             checkPlacement = false;
 
-         
-
         }
-
     }
     /**
      * Kun hiiren painike nostetaan ylös vaihdetaan checkPlacement true:ksi koska silloin haluamme tarkistaa onko pala oikeassa paikassa
@@ -64,7 +58,6 @@ public class LiikutaPalaa : MonoBehaviour
      */
     private void OnMouseUp()
     {
-
         if (Input.GetMouseButtonUp(0) && isBeingHeld == true)
         {
             isBeingHeld = false;
@@ -72,15 +65,11 @@ public class LiikutaPalaa : MonoBehaviour
         }
     }
 
-
-
-    
         /**
          * Jotain tapahtuu kun palan Collider osuu sitä vastaavaan collider "sockettiin"
          */
     void OnTriggerStay2D(Collider2D other)
     {
-
         /**
          * Jos palan nimi ja socketin nimi (Molemman GameObjecteja, missä on 2D Collider) ovat samat ja hiirellä tai sormella ei enää pidetä palasta kiinni.
          * pala loksahtaa paikoilleen ja palaa ei voi enää liikutta

@@ -26,10 +26,8 @@ public class LoppuScreeni : MonoBehaviour
         Timer();
         if (!stopTimer)
         {
-
             PeliLoppu();
         }
-
     }
 
     public void PeliLoppu()
@@ -43,7 +41,6 @@ public class LoppuScreeni : MonoBehaviour
             siirrot = 0;
             PlayerPrefs.SetInt("muistipeliScore", muistipeliScore);
             muistipeliScore = 0;
-            // Lataa uuden scenen, tällä hetkellä lataa takaisin saman ruudun, tähän voi esim tehdä uuden Loppuruudun
             SceneManager.LoadScene(4);
         }
     }
@@ -51,12 +48,9 @@ public class LoppuScreeni : MonoBehaviour
     public void Timer()
     {
         float time = Time.time - startTime;
-   
         float minuutit = ((int)time / 60);
         float sekunnit = (time % 60);
         aika = minuutit.ToString("00") + ":" + sekunnit.ToString("00");
         PlayerPrefs.SetString("aika", aika);
-        
-
     }
 }

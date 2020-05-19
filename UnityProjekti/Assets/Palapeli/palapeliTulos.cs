@@ -5,22 +5,14 @@ using UnityEngine.UI;
 
 public class palapeliTulos : MonoBehaviour
 {
-
     public Text scoreTeksti;
     public Text pistemääräTeksti;
     public Text siirrotTeksti;
-
 
     void Start()
     {
         scoreTeksti.text = "Palapelin läpäisemiseen kulunut aika: " + PlayerPrefs.GetString("aika").ToString();
         pistemääräTeksti.text = "Palapelin pistemäärä: " + PlayerPrefs.GetInt("muistipeliScore").ToString();
         siirrotTeksti.text = "Palapelin siirrot yhteensä: " + PlayerPrefs.GetInt("muistipeliSiirrot").ToString();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
