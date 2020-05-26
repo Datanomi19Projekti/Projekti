@@ -41,7 +41,7 @@ public class LoppuScreeni : MonoBehaviour
             siirrot = 0;
             PlayerPrefs.SetInt("muistipeliScore", muistipeliScore);
             muistipeliScore = 0;
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(2);
         }
     }
 
